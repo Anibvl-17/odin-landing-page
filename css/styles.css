@@ -101,6 +101,7 @@ h2 {
     gap: 96px;
     text-align: center; /* for description text */
     color: #636972;
+    margin-bottom: 96px;
 }
 
 .information img {
@@ -113,4 +114,26 @@ h2 {
 .information p {
     width: 200px;
     margin: 0;
+}
+
+/* Quote styles */
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    align-self: flex-end;
 }
