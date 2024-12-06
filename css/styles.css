@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+/* Original color: #76232d */
+.red-letter-logo {
+    color: #b93746;
+}
+
 .header {
     background-color: #1F2937;
     color: #E5E7EB;
