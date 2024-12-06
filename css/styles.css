@@ -78,6 +78,10 @@ body {
     padding: 8px 24px;
 }
 
+.hero-text button:hover {
+    background-color: #2d6bce;
+}
+
 /* Hero Main text */
 h1 {
     font-size: 48px;
@@ -158,6 +162,10 @@ h2 {
     padding: 8px 24px;
     border-radius: 6px;
     font-size: 14px;
+}
+
+.call-to-action button:hover {
+    background-color: #2d6bce;
 }
 
 /* Footer styles */
