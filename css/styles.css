@@ -105,10 +105,10 @@ h2 {
 }
 
 .information img {
-    height: 200px;
+    height: 320px;
     width: 200px;
     border-radius: 8px;
-    border: 2px solid #3882F6;
+    border: 1px solid #636972;
 }
 
 .information p {
