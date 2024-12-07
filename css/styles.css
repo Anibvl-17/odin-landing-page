@@ -114,14 +114,14 @@ h2 {
 }
 
 .information img {
-    height: 320px;
-    width: 200px;
+    height: 368px;
+    width: 230px;
     border-radius: 8px;
     border: 2px solid #636972;
 }
 
 .information p {
-    width: 200px;
+    width: 230px;
     margin: 0;
 }
 
