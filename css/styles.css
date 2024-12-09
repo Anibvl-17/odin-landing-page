@@ -1,6 +1,5 @@
 body {
     font-family: Roboto;
-    
     margin: 0;
 }
 
@@ -10,19 +9,22 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-around;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 2px 260px;
+    padding: 24px;
 }
 
 .header ul {
+    width: 400px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
     gap: 48px;
-    padding-right: 40px;
+    padding: 0;
 }
 
 .header ul li {
@@ -39,8 +41,8 @@ body {
 }
 
 .header-logo {
-    align-self: flex-start;
-    margin-right: auto;
+    width: 610px;
+    margin: 8px;
     color: #E5E7EB;
     font-size: 36px;
     font-family: 'Pinyon Script';
@@ -52,10 +54,9 @@ body {
     flex-wrap: wrap;
     color: #E5E7EB;
     font-size: 18px;
-    justify-content: space-between;
-    padding: 16px 300px;
+    justify-content: space-around;
     height: 500px;
-    margin-bottom: 56px;
+    padding: 24px;
 }
 
 .hero p, .hero h1 {
@@ -64,7 +65,7 @@ body {
 }
 
 .hero img {
-    height: 260px;
+    width: 400px;
     align-self: center;
     margin: 8px;
 }
