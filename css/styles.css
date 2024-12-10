@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/* Header styles */
 /* Original color: #76232d */
 .red-letter-logo {
     color: #ce4050;
@@ -46,6 +47,14 @@ body {
     color: #E5E7EB;
     font-size: 36px;
     font-family: 'Pinyon Script';
+}
+
+/* Hero styles */
+h1 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero {
@@ -92,15 +101,7 @@ body {
     background-color: #2d6bce;
 }
 
-/* Hero Main text */
-h1 {
-    margin: 0;
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-/* Information header */
+/* Information styles */
 h2 {
     margin-bottom: 48px;
     color: #1F2937;
