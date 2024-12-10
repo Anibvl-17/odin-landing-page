@@ -51,7 +51,6 @@ body {
 
 /* Hero styles */
 h1 {
-    
     margin: 0;
     color: #F9FAF8;
     font-size: 48px;
@@ -75,15 +74,15 @@ h1 {
 
 .hero img {
     width: 400px;
-    align-self: center;
-    margin: 96px 8px;
+    margin: 24px 8px 128px 8px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    margin: 8px;
+    justify-content: center;
+    gap: 4px;
+    margin: 24px 8px 128px 8px;
 }
 
 .hero-text button {
