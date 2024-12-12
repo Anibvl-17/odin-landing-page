@@ -85,18 +85,19 @@ h1 {
     margin: 24px 8px 128px 8px;
 }
 
-.hero-text button {
+.hero-btn-explore {
     align-self: flex-start;
     margin-top: 12px;
     padding: 8px 24px;
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 14px;
+    text-decoration: none;
     border-radius: 6px;
     border-style: none;
 }
 
-.hero-text button:hover {
+.hero-btn-explore:hover {
     background-color: #2d6bce;
 }
 
