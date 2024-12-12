@@ -172,10 +172,10 @@ h2 {
     flex-basis: 400px;
 }
 
-.call-to-action button {
+.cta-btn-explore {
     flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: 82px;
+    flex-basis: 90px;
     align-self: center;
     padding: 8px 24px;
     margin: 8px;
@@ -183,11 +183,13 @@ h2 {
     color: #E5E7EB;
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
+    text-align: center;
     border: 2px solid #E5E7EB;
     border-radius: 6px;
 }
 
-.call-to-action button:hover {
+.cta-btn-explore:hover {
     background-color: #2d6bce;
 }
 
