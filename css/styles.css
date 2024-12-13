@@ -138,12 +138,17 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 96px 300px;
+    padding: 96px 24px;
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
     font-size: 36px;
+}
+
+.quote div {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-author {
