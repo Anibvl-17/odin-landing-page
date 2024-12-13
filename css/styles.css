@@ -163,9 +163,10 @@ h2 {
 .call-to-action {
     display: flex;
     justify-content: space-around;
-    margin: 96px auto;
+    justify-self: center;
+    margin: 96px 24px;
     padding: 32px;
-    max-width: 1050px;
+    max-width: 1250px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 8px;
