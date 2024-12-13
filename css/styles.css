@@ -162,6 +162,7 @@ h2 {
 /* Call to Action styles */
 .call-to-action {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     justify-self: center;
     margin: 96px 24px;
