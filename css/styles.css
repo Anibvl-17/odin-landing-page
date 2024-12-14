@@ -115,8 +115,8 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 96px;
-    margin-bottom: 96px;
-    padding: 8px 300px;
+    margin: 48px 12px;
+    padding: 8px;
     text-align: center; /* for description text */
     color: #636972;
 }
