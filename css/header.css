@@ -1,0 +1,45 @@
+/* Header styles */
+/* Original color: #76232d */
+.red-letter-logo {
+    color: #ce4050;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 40px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header ul {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #F9FAF8;
+}
+
+.header-logo {
+    width: 610px;
+    margin: 8px;
+    color: #E5E7EB;
+    font-size: 34px;
+    font-family: 'Pinyon Script';
+}
