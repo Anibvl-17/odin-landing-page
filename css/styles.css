@@ -153,15 +153,3 @@ h2 {
 .cta-btn-explore:hover {
     background-color: #2d6bce;
 }
-
-/* Footer styles */
-.footer {
-    padding: 24px;
-    background-color: #1F2937;
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.footer p {
-    text-align: center;
-}
