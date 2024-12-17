@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    /* Normal padding: 24, to align with header content add +8 because header elements have margin */
+    padding: 32px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    line-height: 1.5;
+}
+
+.description div {
+    flex-basis: 600px;
+}
+
+.description-img {
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+}
+
+.description-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.description-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.description.description-center {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.description.description-center div {
+    flex: 1;
+    max-width: 600px;
+}
+
+.description.description-center .description-img {
+    width: 600px;
+    aspect-ratio: 4 / 3;
+}
