@@ -1,3 +1,8 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
 /* Header styles */
 /* Original color: #76232d */
 .red-letter-logo {
