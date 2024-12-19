@@ -19,13 +19,31 @@
     min-width: 240px;
 }
 
-.floating-schedule {
+.floating {
     border-radius: 5px;
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
     padding: 24px;
     margin-top: 36px;
 }
 
-.floating-schedule > h3 {
+.floating > h3 {
     margin: 0px 0px 8px 0px;
+}
+
+.floating-content {
+    display: flex;
+}
+
+.input-date {
+    box-sizing: border-box;
+    width: 148px;
+    padding: 12px;
+    margin: 0px 12px 0px 0px;
+}
+
+.select-time {
+    box-sizing: border-box;
+    width: 132px;
+    padding: 12px;
+    margin: 0px 12px 0px 0px;
 }
