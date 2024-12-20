@@ -33,15 +33,12 @@
 .floating-content {
     display: flex;
     gap: 16px;
+    margin-top: 12px;
 }
 
-.input-date {
+.input-date, .select-time {
     box-sizing: border-box;
-    padding: 12px;
-}
-
-.select-time {
-    box-sizing: border-box;
+    border-radius: 6px;
     padding: 12px;
 }
 
@@ -56,4 +53,5 @@
 
 .btn-submit:hover {
     background-color: #3072dd;
+    cursor: pointer;
 }
