@@ -32,18 +32,28 @@
 
 .floating-content {
     display: flex;
+    gap: 16px;
 }
 
 .input-date {
     box-sizing: border-box;
-    width: 148px;
     padding: 12px;
-    margin: 0px 12px 0px 0px;
 }
 
 .select-time {
     box-sizing: border-box;
-    width: 132px;
     padding: 12px;
-    margin: 0px 12px 0px 0px;
+}
+
+.btn-submit {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.btn-submit:hover {
+    background-color: #3072dd;
 }
