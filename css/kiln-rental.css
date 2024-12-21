@@ -1,3 +1,17 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.footer {
+    margin-top: auto;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +19,7 @@
     align-items: center;
     gap: 16px;
     padding: 24px;
-    position: relative;
+    flex: 1;
 }
 
 .content-description {
