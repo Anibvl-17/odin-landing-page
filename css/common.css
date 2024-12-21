@@ -10,16 +10,20 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    padding: 18px 24px;
+    padding: 18px 40px;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1280px;
+}
+
 .header ul {
-    width: 400px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -42,7 +46,6 @@ body {
 }
 
 .header-logo {
-    width: 610px;
     margin: 8px;
     color: #E5E7EB;
     font-size: 34px;
